@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+
+# collect data
+print("enter pokemon data")
+print("day 1:", end="")
+day1 = int(input())
+print("day 2:", end="")
+day2 = int(input())
+print("day 3:", end="")
+day3 = int(input())
+
+# put the data in a list
+data = [day1, day2, day3]
+
+
+# TODO: graph the real data
+fig, ax = plt.subplots()
+ax.plot([1, 2, 3], data)
+plt.title("pokemon data")
+plt.xlabel('day #')
+plt.ylabel('pokemons collected')
+plt.show()
