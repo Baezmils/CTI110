@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+
+  background-color: #444;
+  color: white;
+}
+
+a {
+  color: #FF5733; /* Contrasting color for links */
+}
+
+a:visited {
+  color: #FF3355; /* Contrasting color for visited links */
+}
